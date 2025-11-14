@@ -1,2 +1,3 @@
 # Jrinkigame
-I want to make a game that works
+Indie pixel-art game project using Godot Engine. Personal learning and practice.
+Making a game that works.
