@@ -1,18 +1,20 @@
-# Godot-specific ignores
+# Godot 4 - recommended gitignore
+
+# Godot-specific
 .import/
-export.cfg
+.godot/
+*.import
+
+# Export profiles
 export_presets.cfg
 
-# Mono-specific ignores
+# Mono-specific (if using C#)
 .mono/
 data_*/
 
-# Cache
-.godot/
-
-# OS generated files
+# System / editor junk
 .DS_Store
 Thumbs.db
 
-# VS Code settings (optional)
+# VSCode
 .vscode/
