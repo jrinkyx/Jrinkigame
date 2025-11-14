@@ -12,9 +12,32 @@ export_presets.cfg
 .mono/
 data_*/
 
+# Exports and builds
+builds/
+*.exe
+*.so
+*.dylib
+*.pck
+dist/
+build/
+
 # System / editor junk
 .DS_Store
 Thumbs.db
 
 # VSCode
 .vscode/
+
+# Other editors
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Temp files
+*.swp
+*.swo
+*~
