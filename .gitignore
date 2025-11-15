@@ -4,6 +4,7 @@
 .import/
 .godot/
 *.import
+*.uid
 
 # Export profiles
 export_presets.cfg
@@ -23,6 +24,8 @@ build/
 
 # System / editor junk
 .DS_Store
+.AppleDouble
+Desktop.ini
 Thumbs.db
 
 # VSCode
